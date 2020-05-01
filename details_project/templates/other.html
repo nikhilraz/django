@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{%block body_block%}
+
+<div class="container">
+  <div class="jumbotron">
+    <h4>Hey {{username}},you are logged in!<br>
+      your password is {{password}}
+    </h4>
+    <!-- <h3>Details of all users:</h3>
+    {%if mydict%}
+      {%for t in mydict%}
+
+      <table>
+        <tr>
+          <td>{{t.name}}</td>
+          <td>{{t.login_time}}</td>
+          <td>{{t.logout_time}}</td>
+        </tr>
+      </table>
+
+      {%endfor%}
+    {%else%}
+      <h3>NO AUDIT DETAILS FOUND! </h3> -->
+    {%endif%}
+
+  </div>
+
+</div>
+
+
+{%endblock%}
